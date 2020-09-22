@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Mail POP Install
+
+
+[Package|Mail POP Install|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\mailserver\popserver
+
+[Package|Mail POP Install|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mail POP Install|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mail POP Install|Files Found]
+POPDBExchge.ocx=C:\Program Files\POPDB\POPDBExchge.ocx
+
+[Package|Mail POP Install|Files Released]
+
+[Package|Mail POP Install|Missing Dependency Information]
+C:\Program Files\POPDB\POPDBExchge.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINNT\system32\POPDBExchge.ocx=
+
+[Package|Mail POP Install|Out-of-Date Dependency Information]
+
+[Package|Mail POP Install|Files Added]
+z:\vb projects\exchangemessenger\dbstore.mdb=
+
+[Package|Mail POP Install|Files Removed]
+
+[Package|Mail POP Install|Files In Project]
+Z:\Vb Projects\ExchangeMessenger\SERVER\POPSERVER.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\POPDBExchge.ocx=Yes
+Z:\Vb Projects\ExchangeMessenger\DBSTORE.MDB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Mail POP Install|Configure Registry Files]
+Applicable=No
+
+[Package|Mail POP Install|Configure Remote Servers]
+Applicable=No
+
+[Package|Mail POP Install|Install Locations]
+Z:\Vb Projects\ExchangeMessenger\SERVER\POPSERVER.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\POPDB\POPDBExchge.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\POPDBExchge.ocx=$(WinSysPath)
+Z:\Vb Projects\ExchangeMessenger\DBSTORE.MDB=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|Mail POP Install|Configure Shared Files]
+Applicable=Yes
+Z:\Vb Projects\ExchangeMessenger\SERVER\POPSERVER.exe=No
+Z:\Vb Projects\ExchangeMessenger\DBSTORE.MDB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Mail POP Install|Distribution]
+Type=single
+Size=
+Title=POPSERVER
+
+[Package|Mail POP Install|Package]
+PackageFolder=c:\mailserver\popserver
+ProjectFolder=Z:\Vb Projects\ExchangeMessenger\SERVER
+ServerSideCab=
+File1=c:\mailserver\popserver\setup.exe
+File2=c:\mailserver\popserver\Setup.Lst
+File3=c:\mailserver\popserver\POPSERVER.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Mail POP Install|IconGroups]
+Group0=POPSERVER
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Mail POP Install|POPSERVER]
+Icon1=POPSERVER.EXE
+Title1=POPSERVER
+StartIn1=$(AppPath)
+Key1=Icon1
